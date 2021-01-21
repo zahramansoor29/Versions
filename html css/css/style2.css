@@ -1,0 +1,66 @@
+/*Version2*/
+
+
+* {
+  margin:0;
+  padding:0;
+}
+
+body#version2 p {
+  font-size: 20pt;
+}
+
+body#version2 {
+  color: floralwhite;
+	margin-top: 40px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 40px;
+	padding:0;
+	font-family: 'louis';
+  text-align: justify;
+	background-color: darkslategrey;
+}
+
+.text {
+  font-size: 23pt;
+  font-weight: bold;
+}
+
+div {
+  column-count: 3;
+}
+.myDiv {
+	overflow: hidden;
+}
+
+.indented {
+	text-indent: 50px;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
+.ml7 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.7em;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+h1 {
+  text-align: right;
+}

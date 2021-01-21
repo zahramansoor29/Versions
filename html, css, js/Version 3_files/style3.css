@@ -1,0 +1,61 @@
+/*Version3*/
+* {
+  margin:0;
+  padding:0;
+}
+
+@font-face {
+	font-family: 'myFirstFont';
+	src: url('../fonts/TravelingTypewriter.ttf') format('truetype');
+}
+
+body#version3 p {
+	font-family: 'myFirstFont';
+}
+
+body#version3 {
+	background-color: lavender;
+	color: lightcoral;
+	margin-top: 40px;
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-bottom: 40px;
+	padding:0;
+}
+
+p {
+  font-size: 20pt;
+  column-count: 2;
+  column-gap: 60px;
+  text-align: justify;
+}
+
+.indented {
+	text-indent: 50px;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
+
+.ml7 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.7em;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: scroll;
+}
+
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+  font-family: 'myFirstFont';
+}
